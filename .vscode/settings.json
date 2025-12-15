@@ -1,0 +1,10 @@
+{
+  "unittestbot.deployment.utbotHost": "127.0.0.1",
+  "unittestbot.deployment.utbotPort": 5521,
+  "unittestbot.deployment.remotePath": "/home/utbot/remote/c-example/",
+  "unittestbot.paths.buildDirectory": "build",
+  "unittestbot.paths.cmakeOptions": [
+    "-DCMAKE_EXPORT_COMPILE_COMMANDS=ON",
+    "-DCMAKE_EXPORT_LINK_COMMANDS=ON"
+  ]
+}
